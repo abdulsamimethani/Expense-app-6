@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 
-// Import the Global State
+
 import { GlobalContext } from '../context/globalState';
 
 
@@ -48,7 +48,7 @@ function AddTransaction  () {
                             id="transactionamount"
                             value={amount}
                             onChange={(e) => setAmount(e.target.value)}
-                            placeholder="Dollar Value of Transaction"
+                            placeholder="Enter Amount"
                             required="required"
                     />
                 </div>

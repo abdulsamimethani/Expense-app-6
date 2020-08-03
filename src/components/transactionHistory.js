@@ -1,9 +1,5 @@
 import React, { useContext } from 'react';
-
-// Import Transaction Component
 import  Transaction  from './Transaction';
-
-// Import the Global State
 import { GlobalContext } from '../context/globalState';
 
 function TransactionHistory  ()  {
